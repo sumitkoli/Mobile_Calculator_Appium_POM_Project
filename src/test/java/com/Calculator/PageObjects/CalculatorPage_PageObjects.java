@@ -6,7 +6,6 @@ import org.openqa.selenium.support.PageFactory;
 
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
-import lombok.Delegate;
 
 public class CalculatorPage_PageObjects {
 
@@ -269,13 +268,13 @@ public class CalculatorPage_PageObjects {
 	}
 
 	//Method to get text from Result field
-	public void getText_Formula_Fiel(String FormulaField_Text) {
-		FormulaField_Text=formula_Field.getText();
+	public String getText_Formula_Field() {
+		return formula_Field.getText();
 	}
 
 	//Method to get text from Result field
-	public void getText_Result_Field(String Result_Text) {
-		Result_Text=Result.getText();
+	public String getText_Result_Field() {
+		return Result.getText();
 	}
 
 	//-------------------------------Method for Scientific calculator--------------------------------------------------------------
