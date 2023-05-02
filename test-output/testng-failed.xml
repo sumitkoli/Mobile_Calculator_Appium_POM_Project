@@ -5,8 +5,10 @@
     <classes>
       <class name="com.Calculator.TestCases.TC_02_Test_Addition">
         <methods>
+          <include name="start_AppiumServer"/>
           <include name="test_Addition"/>
           <include name="applicationsetup_Method"/>
+          <include name="stop_AppuimServer"/>
           <include name="applicationtearDown_Method"/>
         </methods>
       </class> <!-- com.Calculator.TestCases.TC_02_Test_Addition -->

@@ -4,6 +4,8 @@ import java.io.File;
 import java.net.MalformedURLException;
 import java.net.URL;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
@@ -21,6 +23,7 @@ import io.appium.java_client.service.local.AppiumServiceBuilder;
 import io.appium.java_client.service.local.flags.GeneralServerFlag;
 
 public class Base_Class {
+	public Logger log= LogManager.getLogger("Logs");;
 	public static AndroidDriver<MobileElement> driver;
 	public static CalculatorPage_PageObjects calculator_Page;
 	public static AppiumDriverLocalService service;
@@ -30,7 +33,6 @@ public class Base_Class {
 
 	@BeforeMethod
 	public void applicationsetup_Method() throws MalformedURLException {
-
 		DesiredCapabilities cap = new DesiredCapabilities();
 		cap.setCapability("ignoreHiddenApiPolicyError", true);
 		cap.setCapability(MobileCapabilityType.NO_RESET, true);
@@ -48,6 +50,8 @@ public class Base_Class {
 
 		driver = new AndroidDriver<>(url, cap);
 		page_Objects();
+		
+		
 	}
 
 	@AfterMethod
@@ -64,8 +68,8 @@ public class Base_Class {
 				.withLogFile(new File(
 						"C:\\Users\\lenovo\\eclipse-workspace1\\Mobile_Calculator_POM_Project\\LogFiles\\AppiumServerlog.txt")));
 
-		System.out.println("Starting Server");
 		service.start();
+		log.info("Server is Starting");
 	}
 
 	@AfterTest
@@ -74,7 +78,7 @@ public class Base_Class {
 		if (service.isRunning() == true) {
 			service.stop();
 
-			System.out.println("Appium Server Stop.....");
+			log.info("Appium Server Stop.....");
 		}
 	}
 
