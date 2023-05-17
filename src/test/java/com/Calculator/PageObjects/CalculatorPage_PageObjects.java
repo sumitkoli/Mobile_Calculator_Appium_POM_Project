@@ -4,10 +4,12 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import com.Calculator.BaseClass.Base_Class;
+
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
 
-public class CalculatorPage_PageObjects {
+public class CalculatorPage_PageObjects extends Base_Class{
 
 	AndroidDriver<MobileElement> ldriver;
 	public CalculatorPage_PageObjects(AndroidDriver<MobileElement> rdriver) {

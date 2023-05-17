@@ -1,33 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="8" total="13" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-05-02T13:11:43 IST" name="Default suite" finished-at="2023-05-02T13:12:06 IST" duration-ms="22835">
+  <suite started-at="2023-05-17T17:23:03 IST" name="Suite" finished-at="2023-05-17T17:24:27 IST" duration-ms="83243">
     <groups>
     </groups>
-    <test started-at="2023-05-02T13:11:43 IST" name="Default test" finished-at="2023-05-02T13:12:06 IST" duration-ms="22835">
-      <class name="com.Calculator.TestCases.TC_02_Test_Addition">
-        <test-method is-config="true" signature="start_AppiumServer()[pri:0, instance:com.Calculator.TestCases.TC_02_Test_Addition@71b3bc45]" started-at="2023-05-02T13:11:43 IST" name="start_AppiumServer" finished-at="2023-05-02T13:11:46 IST" duration-ms="2226" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- start_AppiumServer -->
-        <test-method is-config="true" signature="applicationsetup_Method()[pri:0, instance:com.Calculator.TestCases.TC_02_Test_Addition@71b3bc45]" started-at="2023-05-02T13:11:46 IST" name="applicationsetup_Method" finished-at="2023-05-02T13:12:02 IST" duration-ms="16553" status="PASS">
+    <test started-at="2023-05-17T17:23:03 IST" name="Test" finished-at="2023-05-17T17:24:27 IST" duration-ms="83243">
+      <class name="com.Calculator.TestCases.TC_01_Test_Number">
+        <test-method is-config="true" signature="applicationsetup_Method()[pri:0, instance:com.Calculator.TestCases.TC_01_Test_Number@75e01201]" started-at="2023-05-17T17:23:29 IST" name="applicationsetup_Method" finished-at="2023-05-17T17:23:37 IST" duration-ms="7642" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- applicationsetup_Method -->
-        <test-method signature="test_Addition()[pri:0, instance:com.Calculator.TestCases.TC_02_Test_Addition@71b3bc45]" started-at="2023-05-02T13:12:02 IST" name="test_Addition" finished-at="2023-05-02T13:12:06 IST" duration-ms="3387" status="PASS">
+        <test-method signature="test_Number()[pri:0, instance:com.Calculator.TestCases.TC_01_Test_Number@75e01201]" started-at="2023-05-17T17:23:37 IST" name="test_Number" finished-at="2023-05-17T17:23:51 IST" duration-ms="13837" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_Addition -->
-        <test-method is-config="true" signature="applicationtearDown_Method()[pri:0, instance:com.Calculator.TestCases.TC_02_Test_Addition@71b3bc45]" started-at="2023-05-02T13:12:06 IST" name="applicationtearDown_Method" finished-at="2023-05-02T13:12:06 IST" duration-ms="519" status="PASS">
+        </test-method> <!-- test_Number -->
+        <test-method is-config="true" signature="applicationtearDown_Method()[pri:0, instance:com.Calculator.TestCases.TC_01_Test_Number@75e01201]" started-at="2023-05-17T17:23:51 IST" name="applicationtearDown_Method" finished-at="2023-05-17T17:23:51 IST" duration-ms="479" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- applicationtearDown_Method -->
-        <test-method is-config="true" signature="stop_AppuimServer()[pri:0, instance:com.Calculator.TestCases.TC_02_Test_Addition@71b3bc45]" started-at="2023-05-02T13:12:06 IST" name="stop_AppuimServer" finished-at="2023-05-02T13:12:06 IST" duration-ms="109" status="PASS">
+      </class> <!-- com.Calculator.TestCases.TC_01_Test_Number -->
+      <class name="com.Calculator.TestCases.TC_05_Test_Division">
+        <test-method is-config="true" signature="start_AppiumServer()[pri:0, instance:com.Calculator.TestCases.TC_05_Test_Division@7a527389]" started-at="2023-05-17T17:23:03 IST" name="start_AppiumServer" finished-at="2023-05-17T17:23:09 IST" duration-ms="5339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start_AppiumServer -->
+        <test-method is-config="true" signature="applicationsetup_Method()[pri:0, instance:com.Calculator.TestCases.TC_05_Test_Division@7a527389]" started-at="2023-05-17T17:23:09 IST" name="applicationsetup_Method" finished-at="2023-05-17T17:23:25 IST" duration-ms="15763" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applicationsetup_Method -->
+        <test-method signature="test_Division()[pri:0, instance:com.Calculator.TestCases.TC_05_Test_Division@7a527389]" started-at="2023-05-17T17:23:25 IST" name="test_Division" finished-at="2023-05-17T17:23:29 IST" duration-ms="4188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Division -->
+        <test-method is-config="true" signature="applicationtearDown_Method()[pri:0, instance:com.Calculator.TestCases.TC_05_Test_Division@7a527389]" started-at="2023-05-17T17:23:29 IST" name="applicationtearDown_Method" finished-at="2023-05-17T17:23:29 IST" duration-ms="385" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applicationtearDown_Method -->
+        <test-method is-config="true" signature="stop_AppuimServer()[pri:0, instance:com.Calculator.TestCases.TC_05_Test_Division@7a527389]" started-at="2023-05-17T17:24:27 IST" name="stop_AppuimServer" finished-at="2023-05-17T17:24:27 IST" duration-ms="64" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- stop_AppuimServer -->
+      </class> <!-- com.Calculator.TestCases.TC_05_Test_Division -->
+      <class name="com.Calculator.TestCases.TC_04_Test_Multiplication">
+        <test-method is-config="true" signature="applicationsetup_Method()[pri:0, instance:com.Calculator.TestCases.TC_04_Test_Multiplication@2783717b]" started-at="2023-05-17T17:23:51 IST" name="applicationsetup_Method" finished-at="2023-05-17T17:23:59 IST" duration-ms="8000" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applicationsetup_Method -->
+        <test-method signature="test_Multiplication()[pri:0, instance:com.Calculator.TestCases.TC_04_Test_Multiplication@2783717b]" started-at="2023-05-17T17:23:59 IST" name="test_Multiplication" finished-at="2023-05-17T17:24:03 IST" duration-ms="3568" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Multiplication -->
+        <test-method is-config="true" signature="applicationtearDown_Method()[pri:0, instance:com.Calculator.TestCases.TC_04_Test_Multiplication@2783717b]" started-at="2023-05-17T17:24:03 IST" name="applicationtearDown_Method" finished-at="2023-05-17T17:24:03 IST" duration-ms="397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applicationtearDown_Method -->
+      </class> <!-- com.Calculator.TestCases.TC_04_Test_Multiplication -->
+      <class name="com.Calculator.TestCases.TC_03_Test_Subtration">
+        <test-method is-config="true" signature="applicationsetup_Method()[pri:0, instance:com.Calculator.TestCases.TC_03_Test_Subtration@4a335fa8]" started-at="2023-05-17T17:24:15 IST" name="applicationsetup_Method" finished-at="2023-05-17T17:24:23 IST" duration-ms="7806" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applicationsetup_Method -->
+        <test-method signature="test_Subtraction()[pri:0, instance:com.Calculator.TestCases.TC_03_Test_Subtration@4a335fa8]" started-at="2023-05-17T17:24:23 IST" name="test_Subtraction" finished-at="2023-05-17T17:24:26 IST" duration-ms="3535" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Subtraction -->
+        <test-method is-config="true" signature="applicationtearDown_Method()[pri:0, instance:com.Calculator.TestCases.TC_03_Test_Subtration@4a335fa8]" started-at="2023-05-17T17:24:26 IST" name="applicationtearDown_Method" finished-at="2023-05-17T17:24:27 IST" duration-ms="459" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applicationtearDown_Method -->
+      </class> <!-- com.Calculator.TestCases.TC_03_Test_Subtration -->
+      <class name="com.Calculator.TestCases.TC_02_Test_Addition">
+        <test-method is-config="true" signature="applicationsetup_Method()[pri:0, instance:com.Calculator.TestCases.TC_02_Test_Addition@76f7d241]" started-at="2023-05-17T17:24:03 IST" name="applicationsetup_Method" finished-at="2023-05-17T17:24:11 IST" duration-ms="7679" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applicationsetup_Method -->
+        <test-method signature="test_Addition()[pri:0, instance:com.Calculator.TestCases.TC_02_Test_Addition@76f7d241]" started-at="2023-05-17T17:24:11 IST" name="test_Addition" finished-at="2023-05-17T17:24:14 IST" duration-ms="3575" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Addition -->
+        <test-method is-config="true" signature="applicationtearDown_Method()[pri:0, instance:com.Calculator.TestCases.TC_02_Test_Addition@76f7d241]" started-at="2023-05-17T17:24:14 IST" name="applicationtearDown_Method" finished-at="2023-05-17T17:24:15 IST" duration-ms="432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applicationtearDown_Method -->
       </class> <!-- com.Calculator.TestCases.TC_02_Test_Addition -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

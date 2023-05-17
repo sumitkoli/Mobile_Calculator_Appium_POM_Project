@@ -3,8 +3,11 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
+      <class name="com.Calculator.TestCases.TC_05_Test_Division"/>
       <class name="com.Calculator.TestCases.TC_01_Test_Number"/>
+      <class name="com.Calculator.TestCases.TC_04_Test_Multiplication"/>
       <class name="com.Calculator.TestCases.TC_02_Test_Addition"/>
+      <class name="com.Calculator.TestCases.TC_03_Test_Subtration"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
